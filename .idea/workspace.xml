@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mmall:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0d85041-fab8-4502-90f3-3b9a2a47fa3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/TokenCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/ICartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/IFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/vo/CartProductVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/vo/CartVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/vo/ProductDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/vo/ProductListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mmall" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\apache-maven-3.8.1\repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tLsHpHgTz7f6kMsVjSK3TY859X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mmall.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mmall\src\main\resources" />
+      <recent name="C:\mmall\src\main\webapp\WEB-INF" />
+      <recent name="C:\mmall\src\main\java\com\mmall" />
+      <recent name="C:\mmall\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="DateTimeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mmall.util.DateTimeUtil" />
+      <module name="mmall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mmall.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FTPUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mmall.util.FTPUtil" />
+      <module name="mmall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mmall.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="mmall" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat 7.0.109" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="tomcat 7.0.109" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mmall:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mmall" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60053" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mmall:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DateTimeUtil" />
+      <item itemvalue="Application.FTPUtil" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Tomcat Server.tomcat 7.0.109" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.FTPUtil" />
+        <item itemvalue="Application.DateTimeUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.22874807" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0d85041-fab8-4502-90f3-3b9a2a47fa3b" name="Default Changelist" comment="" />
+      <created>1622559618893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622559618893</updated>
+      <workItem from="1622559622276" duration="1932000" />
+      <workItem from="1622561613031" duration="172000" />
+      <workItem from="1622642559862" duration="3571000" />
+      <workItem from="1622728418763" duration="1795000" />
+      <workItem from="1622773321968" duration="614000" />
+      <workItem from="1622906112334" duration="1351000" />
+      <workItem from="1622981838057" duration="6039000" />
+      <workItem from="1623076905714" duration="1202000" />
+      <workItem from="1623161358151" duration="1862000" />
+      <workItem from="1623163319242" duration="50000" />
+      <workItem from="1623252657426" duration="571000" />
+      <workItem from="1623336915460" duration="1615000" />
+      <workItem from="1623420172400" duration="1425000" />
+      <workItem from="1623510145788" duration="2856000" />
+      <workItem from="1623597232463" duration="1199000" />
+      <workItem from="1623764777367" duration="3489000" />
+      <workItem from="1623984716595" duration="2160000" />
+      <workItem from="1624112841654" duration="2771000" />
+      <workItem from="1624200407534" duration="5287000" />
+      <workItem from="1624243952214" duration="1617000" />
+      <workItem from="1624331608009" duration="1932000" />
+      <workItem from="1624419007977" duration="1333000" />
+      <workItem from="1624454551803" duration="624000" />
+      <workItem from="1624503177870" duration="3238000" />
+      <workItem from="1624588295422" duration="4646000" />
+      <workItem from="1624632725135" duration="2239000" />
+      <workItem from="1624687275696" duration="3518000" />
+      <workItem from="1624771600184" duration="2474000" />
+      <workItem from="1624845801621" duration="1063000" />
+      <workItem from="1624930711344" duration="6321000" />
+      <workItem from="1625054861562" duration="590000" />
+      <workItem from="1625118321699" duration="2181000" />
+      <workItem from="1625304114340" duration="3263000" />
+      <workItem from="1625570499105" duration="5335000" />
+      <workItem from="1625662999265" duration="2674000" />
+      <workItem from="1625727915076" duration="2834000" />
+      <workItem from="1625809752448" duration="587000" />
+      <workItem from="1626082289762" duration="5627000" />
+      <workItem from="1626164219393" duration="2442000" />
+      <workItem from="1626258821410" duration="6725000" />
+      <workItem from="1626326736869" duration="18503000" />
+      <workItem from="1626595200960" duration="5793000" />
+      <workItem from="1627483462187" duration="1764000" />
+      <workItem from="1627519963079" duration="5421000" />
+      <workItem from="1627694140285" duration="861000" />
+      <workItem from="1627895345205" duration="803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1622561763377">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1622561763377" />
+    <state x="275" y="22" key="#Tomcat_Server" timestamp="1622560179713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1622560179713" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626343530406">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1626343530406" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1626620934976">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1626620934976" />
+    <state x="275" y="22" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1622561105837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1622561105837" />
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1627695406549">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627695406549" />
+    <state width="997" height="233" key="GridCell.Tab.0.bottom" timestamp="1626346406272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626346406272" />
+    <state width="997" height="233" key="GridCell.Tab.0.center" timestamp="1626346406272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626346406272" />
+    <state width="997" height="233" key="GridCell.Tab.0.left" timestamp="1626346406271">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626346406271" />
+    <state width="997" height="233" key="GridCell.Tab.0.right" timestamp="1626346406272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626346406272" />
+    <state width="997" height="233" key="GridCell.Tab.1.bottom" timestamp="1626346406273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626346406273" />
+    <state width="997" height="233" key="GridCell.Tab.1.center" timestamp="1626346406273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1626346406273" />
+    <state width="997" height="233" key="GridCell.Tab.1.left" timestamp="1626346406272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1626346406272" />
+    <state width="997" height="233" key="GridCell.Tab.1.right" timestamp="1626346406273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1626346406273" />
+    <state width="997" height="233" key="GridCell.Tab.2.bottom" timestamp="1626346406275">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626346406275" />
+    <state width="997" height="233" key="GridCell.Tab.2.center" timestamp="1626346406275">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1626346406275" />
+    <state width="997" height="233" key="GridCell.Tab.2.left" timestamp="1626346406273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1626346406273" />
+    <state width="997" height="233" key="GridCell.Tab.2.right" timestamp="1626346406275">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="233" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1626346406275" />
+    <state width="997" height="198" key="GridCell.Tab.3.bottom" timestamp="1626341551113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="198" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626341551113" />
+    <state width="997" height="198" key="GridCell.Tab.3.center" timestamp="1626341551113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="198" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1626341551113" />
+    <state width="997" height="198" key="GridCell.Tab.3.left" timestamp="1626341551113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="198" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1626341551113" />
+    <state width="997" height="198" key="GridCell.Tab.3.right" timestamp="1626341551113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="997" height="198" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1626341551113" />
+    <state x="184" y="6" width="1163" height="716" key="SettingsEditor" timestamp="1626328803869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" width="1163" height="716" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1626328803869" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1627694146631">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1627694146631" />
+    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624113159620">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1624113159620" />
+    <state x="632" y="38" width="631" height="707" key="dock-window-1" timestamp="1626327116374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="632" y="38" width="631" height="707" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1626327116374" />
+    <state x="57" y="59" key="new project wizard" timestamp="1627695384362">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1627695384362" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1627523771414">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1627523771414" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1627556260465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1627556260465" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/CategoryServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/CategoryServiceImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/CategoryServiceImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/ProductServiceImpl.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/ProductServiceImpl.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/ProductServiceImpl.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/ProductServiceImpl.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/ProductServiceImpl.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/util/PropertiesUtil.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/Impl/FileServiceImpl.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/util/PropertiesUtil.java</url>
+          <line>34</line>
+          <properties class="com.mmall.util.PropertiesUtil" method="getProperty">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java</url>
+          <line>122</line>
+          <properties class="com.mmall.controller.backend.ProductManageController" method="upload">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/IFileService.java</url>
+          <line>6</line>
+          <properties class="com.mmall.service.IFileService" method="upload">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

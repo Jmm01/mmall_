@@ -116,4 +116,13 @@
       update_time =  now()
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <!--<include refid="Base_Column_List" /> 这个在MyBatis查询数据库的sql中经常会出现。它在上面已经定义，作用相当于 * ，
+  Base_Column_List是固定的几个字段，而用*号的话会降低查询效率，因为后期数据库的字段会不断增加。-->
+  <select id="selectCategoryChildrenByParentId" resultMap="BaseResultMap" parameterType="int">
+    select
+
+    <include refid="Base_Column_List"/>
+    from mmall_category
+    where parent_id = #{parentId}
+  </select>
 </mapper>
